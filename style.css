@@ -28,7 +28,7 @@ a,
 
 /* DESKTOP NAV */
 
-.nav{
+.nav, #hamburger-nav{
   width: 100%;
     position: fixed;
     top: 0;
