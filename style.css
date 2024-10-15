@@ -28,6 +28,27 @@ a,
 
 /* DESKTOP NAV */
 
+.nav{
+  width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+  background-color: #d9d9d9;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+              inset 0 1px 10px rgba(255, 255, 255, 0.6); /* Shadow & Shine */
+}
+
+.content {
+  padding-top: 14vh;
+  /* Offset to avoid overlap with fixed navbar */
+  min-height: 100vh;
+  /* Ensures full height content */
+  background-color: #ffffff;
+}
+
 nav,
 .nav-links {
   display: flex;
@@ -36,7 +57,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 12vh;
 }
 
 .nav-links {
@@ -82,9 +103,9 @@ a:hover {
 }
 
 .logo img {
-  height: 40px;
+  height: 50px;
   /* Adjust the size of the image */
-  width: 40px;
+  width: 50px;
   border-radius: 50%;
   /* Optional: Makes the image circular */
 }
