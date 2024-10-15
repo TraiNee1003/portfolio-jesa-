@@ -66,6 +66,29 @@ a:hover {
   cursor: default;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* Spacing between image and text */
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold; /* Makes the text bold */
+    letter-spacing: 1px; /* Adjusts spacing between letters */
+  word-spacing: 4px; /* Adjusts spacing between words */
+}
+
+.logo img {
+  height: 40px;
+  /* Adjust the size of the image */
+  width: 40px;
+  border-radius: 50%;
+  /* Optional: Makes the image circular */
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
